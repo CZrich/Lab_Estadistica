@@ -17,5 +17,11 @@ display(randi(5));% devuelve valores enteros
 
  %metodo redondeado
 display(round( rand() ));
+%LAMBDA=5;
+% QUANTITY--> x=poissinv(0.90,LAMBDA=5);
+% pdf--> y=poisspdf()
+% cdf---> x= poisscdf();
 
-
+y=binopdf(5,12,0.5);
+display("el valor de y es: ")
+display(y);
